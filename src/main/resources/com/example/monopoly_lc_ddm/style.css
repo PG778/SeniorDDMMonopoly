@@ -1,0 +1,46 @@
+.border{
+       -fx-border-color: black;
+        -fx-border-width: 1;
+        -fx-border-style: solid;
+        -fx-background-color: white;
+
+
+}
+
+.dbliue{
+    -fx-background-color: darkblue;
+    -fx-text-fill: white;
+
+
+}
+
+.green{
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}
+
+.yellow{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+}
+
+.red{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+.orange{
+    -fx-background-color: orange;
+    -fx-text-fill: white;
+}
+.magenta{
+    -fx-background-color: magenta;
+    -fx-text-fill: white;
+}
+.lightblue{
+    -fx-background-color: lightblue;
+    -fx-text-fill: white;
+}
+.brown{
+    -fx-background-color: brown;
+    -fx-text-fill: white;
+}
