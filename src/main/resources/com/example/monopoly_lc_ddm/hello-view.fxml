@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="861.0" prefWidth="1250.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="861.0" prefWidth="1250.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.monopoly_lc_ddm.HelloController">
    <children>
       <AnchorPane prefHeight="114.0" prefWidth="125.0" styleClass="border" stylesheets="@style.css">
          <children>
@@ -302,5 +302,7 @@
             <Image url="@../../../../../../../../Documents/images%20(1).jpg" />
          </image>
       </ImageView>
+      <Button fx:id="starttest" layoutX="382.0" layoutY="304.0" mnemonicParsing="false" onMouseClicked="#onStartTestButtonClick" text="Start Test" />
+      <Button fx:id="starttest1" layoutX="462.0" layoutY="304.0" mnemonicParsing="false" onMouseClicked="#onStartTest1ButtonClick" text="Player Test" />
    </children>
 </AnchorPane>
