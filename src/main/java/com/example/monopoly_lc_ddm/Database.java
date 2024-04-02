@@ -35,8 +35,15 @@ public class Database {
     }
 
     public ResultSet getAllGameData() throws SQLException {
-        String sql = "SELECT * FROM games";
+        String sql = "SELECT * FROM Game";
         Statement stmt = conn.createStatement();
         return stmt.executeQuery(sql);
+    }
+
+    public ResultSet getGameDataById(int id) throws SQLException {
+        String sql = "SELECT * FROM Game WHERE gameId = ?";
+        PreparedStatement stmt = conn.prepareStatement(sql);
+        stmt.setInt(1, id);
+        return stmt.executeQuery();
     }
 }

@@ -304,5 +304,6 @@
       </ImageView>
       <Button fx:id="starttest" layoutX="382.0" layoutY="304.0" mnemonicParsing="false" onMouseClicked="#onStartTestButtonClick" text="Start Test" />
       <Button fx:id="starttest1" layoutX="462.0" layoutY="304.0" mnemonicParsing="false" onMouseClicked="#onStartTest1ButtonClick" text="Player Test" />
+      <Button fx:id="starttest11" layoutX="401.0" layoutY="349.0" mnemonicParsing="false" onMouseClicked="#onStartTest11ButtonClick" text="Pull Game Data Test" />
    </children>
 </AnchorPane>
